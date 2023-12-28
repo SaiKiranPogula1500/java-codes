@@ -13,6 +13,7 @@ public class ArrayListDemoClass {
 		al.add(3);
 		al.add(4);
 		al.add(1,"sai");
+                al.add(5);
 		
         System.out.println(al.size());
         System.out.println(al.get(4));
