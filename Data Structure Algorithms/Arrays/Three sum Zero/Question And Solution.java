@@ -1,3 +1,4 @@
+/* 
 Question Link Leet Code :
 https://leetcode.com/problems/3sum/description/
 Question Description :
@@ -28,10 +29,13 @@ Explanation: The only possible triplet sums up to 0.
 Constraints:
 3 <= nums.length <= 3000
 -105 <= nums[i] <= 105
-
+*/
+ /* 
 Solution : 
 Time Complexity : O(n^2);
-Space Complexity : O(n)
+Space Complexity : O(n);
+*/
+import java.util.*;
 class Solution {
     public List<List<Integer>> threeSum(int[] A) {
         List<List<Integer>>ans=new ArrayList<>();
