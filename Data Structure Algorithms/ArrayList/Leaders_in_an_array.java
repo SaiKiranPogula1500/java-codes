@@ -11,16 +11,12 @@ Example 1:
 
 Input:
 n = 6
-A[] = {16,17,4,3,5,2}
+arr[] = {16,17,4,3,5,2}
 Output: 17 5 2
  */
-package ArrayList.Leaders_in_an_array;
-
-import java.util.ArrayList;
-import java.util.Collections;
-
-public class Question_and_solution {
-    
+import java.util.*;
+ class Solution{
+   
     static ArrayList<Integer> leaders(int arr[], int n){
    
         int max = arr[n-1];
@@ -38,3 +34,4 @@ public class Question_and_solution {
        return list;
     }
 }
+
